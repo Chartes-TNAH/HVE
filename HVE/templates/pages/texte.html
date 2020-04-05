@@ -1,0 +1,12 @@
+{% extends "conteneur.html" %}
+{%block corps%}
+<h3>Texte</h3>
+{%if not current_user.is_authenticated%}
+<div class="container">
+	<p>Connectez-vous pour accéder aux textes ! </p>
+	<a href="{{url_for('connexion', numero=numero)}}" class="btn btn-primary float-left">Connexion</a>
+</div>
+{%else%}
+{{HTML|safe}}
+{%endif%}
+{% endblock %}

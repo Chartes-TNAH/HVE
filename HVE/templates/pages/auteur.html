@@ -1,0 +1,62 @@
+{% extends "conteneur.html" %}
+
+{% block titre %}
+{%if auteurs %}| Auteur : {{auteurs.auteur_nom}} {% endif %}
+{% endblock %}
+
+{% block corps %}
+{% if auteurs %}
+<h1>{{auteurs.auteur_nom}}</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <dl>
+                <dt>Origine : </dt><dd>{{auteurs.auteur_origine}}</dd>
+                <dt>Naissance : </dt><dd>{{auteurs.auteur_naissance}}</dd>
+                <dt>Mort  :</dt><dd>{{auteurs.auteur_mort}}</dd>
+                <dt>Profession principale :</dt><dd>{{auteurs.auteur_profession}}</dd>
+            </dl>
+        </div>
+        <div class="col-6 text-center">
+            <img src="../static/img/{{auteurs.auteur_id}}.jpg" class="ident">
+        </div>
+    </div>
+    <div class="row"> 
+        {%if auteurs.auteur_biographie%}
+        <div class="col-6">
+            <h5>Biographie : </h5>
+            <p>{{auteurs.auteur_biographie}}</p>
+        </div>
+        {%endif%}
+        <div class="col-6">
+            <h5>Oeuvres : </h5>
+            <ul>
+            {%for oeuvre in oeuvres%}
+                {%if oeuvre.oeuvre_auteur_fk == auteurs.auteur_id%}
+                <li>
+                    <em>{{oeuvre.oeuvre_titre_original}}</em>
+                {%if oeuvre.oeuvre_autre_titre %}
+                , <em>{{oeuvre.oeuvre_autre_titre}}</em>
+                {%elif oeuvre.oeuvre_date%}
+                , {{oeuvre.oeuvre_date}}
+                {%endif%}.
+            </li>
+                {%endif%}
+            {%endfor%}
+            </ul>
+           <p> voir ce que {{auteurs.auteur_nom}} a écrit concernant :
+            <ul>
+               {%for notice in auteurs.query.get(auteurs.auteur_id).citation%}
+                <li> la plante : <a href="{{url_for('notice', numero=notice.plante.plante_id, ident=auteurs.auteur_id)}}">{{notice.plante.plante_fran}}</a></li>
+                {%endfor%}
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+{% else %}
+    <p>La base de données est en cours de constitution</p>
+    <p><a href="{{url_for('accueil')}}">Retour à l'accueil</a></p>
+{% endif %}
+{% endblock %}
+

@@ -1,0 +1,37 @@
+{% extends "conteneur.html" %}
+
+{% block titre %}| Recherche rapide{% endblock %}
+
+{% block corps %}
+<h1>{{titre}}</h1>
+<div class="container">
+	{%if resultats_auteurs or resultats_plantes %}
+	<div class="row">
+		<div class="col-6">
+    		{% if resultats_auteurs%}
+    		<p>Il y a {{resultats_auteurs|length}} auteurs qui répondent à votre requête :</p>
+        	<ul>
+            	{% for auteur in resultats_auteurs %}
+                <li><a href="{{url_for('auteur', auteur_id=auteur.auteur_id)}}">{{auteur.auteur_nom}}</a></li>
+            	{% endfor %}
+        	</ul>
+    		{% endif %}
+		</div>
+		<div class="col-6">
+    		{% if resultats_plantes%}
+    		<p>Il y a {{resultats_plantes|length}} plantes qui répondent à votre requête :</p>
+        	<ul>
+            	{% for plante in resultats_plantes %}
+                <li><a href="{{url_for('plantes', plante_id=plante.plante_id)}}">{{plante.plante_fran}}</a></li>
+            	{% endfor %}
+        	</ul>
+    		{% endif %}
+		</div>
+	</div>
+	{% else %}
+	<div class="row">
+		<p>Il n'y a pas de résultats pour cette recherche</p>
+	</div>
+	{% endif %}
+</div>
+{% endblock %}

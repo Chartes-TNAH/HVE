@@ -1,0 +1,22 @@
+{% extends "conteneur.html" %}
+{% block afternav %}
+{% include "partials/recherche.html" %}
+{%endblock%}
+{% block corps %}
+<h1>Bienvenue sur l'application Herbarum Vivae Eicones!</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<p>Cette application propose de donner un apperçut de l'ouvrage <emp>Herbarum Vivae Eicones</emp>, ouvrage de botanique réalisé par Otto Brunfels, paru en trois tome entre 1530 et 1536.</p>
+
+			<p>Dans les pages qui suivent, l'utilisateur peut parcourir l'ouvrage, en abordant ce dernier sous plusieurs angles : 
+			<ul>
+				<li>les sources : Brunfels cite les différents auteurs et ouvrages qu'il cite, respectant scrupuleusement la propirété intellectuelle.</li>
+				<li>les plantes : l'ouvrage est divisé en différentes rhapsodies, consernant chacune une plante.</li>
+				<li>les textes : un accès inédit au texte latin sous condition d'inscription.</li>
+			</ul>
+			<p>Il est également possible de faire une recherche directement par la barre de recherche rapide. </p>
+		</div>
+	</div>
+</div>
+{% endblock %}

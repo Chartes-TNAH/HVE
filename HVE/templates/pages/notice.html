@@ -1,0 +1,14 @@
+{% extends "conteneur.html" %}
+{%block corps%}
+<h3>Extrait</h3>
+{%if not current_user.is_authenticated%}
+<div class="container">
+	<br/>
+	<br/>
+<p>Connectez-vous pour accéder aux textes ! </p>
+<a href="{{url_for('connexion')}}" class="btn btn-primary">Connexion</a>
+</div>
+{%else%}
+{{HTML|safe}}
+{%endif%}
+{% endblock %}

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Textes des Herbarum Vivae Eicones</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Herbarum Vivae Eicones, Otto Brunfels</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text n="1">
+        <body>
+        
+        <div1 ref="0">
+            <head>De Narcisso, et Hermodactylo,
+            <note>Rhapsodia Vicesima.</note> </head>
+        
+       <div2> <p>Nomenclaturae. <lb/>
+           Graecae, νάρκισσος,  ἀυτογενές<note type="philo"><p>ἀυτογενές] ἀυτογενές A B : ἀυτογένες C.</p></note>,  βόλϐοσ<note type="philo"><p>βόλϐοσ] βόλϐοσ A B : βούλϐοσ C.</p></note> ὁ ἑμετικός, λείριον, ἄνυδρος.<lb/>
+        Latinae, Narcissus, Hermodactylus.<lb/>
+           Germanicae, in Marcio<note type="philo"><p>Marcio] Marcio A B : Martio C.</p></note>, Hornungs Bloum. In Septembri<note type="philo"><p>Septembri] Septembri A B : Septemb. C. </p></note>, Zeytösslin</p></div2>
+        </div1>
+        
+        
+            <div1 ref="1"><head>Historia Narcissi, secundum Dioscoridem, lib[ro] 4.</head> 
+            <div2><p>[1] Narcissus folia Porro simillima habet, tenuia, multo minora, et angustiora : caulis uacuus, et sine foliis, supra dodrantem attollitur : flos albus in medio, intus croceus, in quibusdam purpureus : radix intus alba, rotunda, bulbosa : semen uelut in tunica, nigrum, longum. Probatissimum nascitur in montibus suavi odore. Caetera Porrum imitatur, atque haerbaceum uirus olet<note type="comp"><p>Dioscoride, De Materia Medica, IV, 158 : « νάρκισσος· ἔνιοι καὶ τοῦτον ὥσπερ  τὸ κρίνον λείριον ἐκάλεσαν. τὰ μὲν φύλλα πράσῳ ἔοικε, λεπτὰ δὲ καὶ μικρότερα παρὰ πολύ, καυλὸν κενόν, ἄφυλλον, μείζονα σπιθαμῆς, ἐφ' οὗ ἄνθος λευκόν, ἔσωθεν δὲ κροκῶδες, ἐπ' ἐνίων δὲ πορφυροειδές· ῥίζα δὲ λευκή, στρογγύλη, βολβοειδής, καρπὸς ὡς ἐν ὑμένι, μέλας, προμήκης. φύεται κάλλιστος ἐν ὀρεινοῖς τόποις, εὐώδης· ὁ δὲ λοιπὸς πρασίζει καὶ βοτανώδη τὴν ἀποφορὰν ἔχει. »</p></note>. 
+        </p></div2></div1>
+        
+        <div1 ref="3"><head>Hermolai Barbari Iudicium de Narcisso. </head>
+            <div2><p>[2] Narcisso folium Albuci, terrae proximum, sed latius, ut Lilio pingue, frequens, angustum, caule sine foliis herbaceo<note type="philo"><p>herbaceo] haerbaceo A : herbaceo B C.</p></note>. Flos in cacumine<note type="comp"><p>Théphraste, VI, 6, 9 : « τὸ μὲν ἐπὶ τῇ γῇ φύλλον ἀσφοδελῶδες ἔχει, πλατύτερον δὲ πολύ, καθάπερ ἡ κρινωνιά, τὸν δὲ καυλὸν ἄφυλλον μέν, ποώδη δὲ καὶ ἐξ ἄκρου τὸ ἄνθος  ». Ce qui est traduit : « les feuilles dressées sur le sol ressemblent à celles de l'asphodèle, en beaucoup plus large, comme celles du lys ; la tige est dépourvue de feuilles, herbacée ; elle porte à son extrémité la fleur ». (Théophraste, Recherches sur les plantes, III, Amigues). </p></note>, post Arcturum, et circa aequinoctium, ac uere : item post Lilium, et Violam, Flammeam uocatam<note type="comp"><p>Il résume ici le chapitre 64 du tome XXI de l'Histoire naturelle de Pline l'Ancien, dans lequel l'auteur antique reprend l'ordre d'apparition des plantes au printemps. </p></note>, membrana inclusus ceu uasculo, ampliusculus, nigricans, oblongus : qui defluens, sponte germinet : praesertimque defixus in terram : manu seritur : et radice ampla, rotunda, carnosa<note type="comp"><p>Dans l'édition d'Hermolao Barbaro paru en 1530 à Cologne, on peut lire : « qui defluens sponte germinet, praesertimque defixus in terram manu. Seritur et radice ampla, rotunda, carnosa », ce qui est plus proche du texte de Théophraste. Cependant, Brunfels n'a probablement pas utilisé cette édition, au vu de sa date de parution, il se peut donc qu'il ai eu un texte donnant les leçon que lui-même reprend. 
+                Théophraste, VI, 6, 9 : « καὶ ἐν ὑμένι τινὶ καθάπερ ἐν ἀγγείῳ καρπὸν μέγαν εὖ μάλα καὶ μἐγαλα τῇ χροιᾷ σχήματι δὲ προμἠκη. Οὗτος δ' ἐκπίπτων ποιεῖ βλάστησιν αὐτόματον· οὐ μὴν ἀλλὰ καὶ σθλλέγοντες πηγνύουσι καὶ τὴν ῥίζαν φυτεύουσιν· ἔχει ῥίζαν σαρκωδη στρογγύλην μεγάλην. ». Ce qui est traduit : « et à l'intérieur d'une sorte de membrane, dans ce qui fait comme une capsule, un fruit d'une bonne grosseur, de couleur noire et de forme allongée. Ce dernier en tombant donne naissance à une plantule, spontanément ; néanmoins on le recueille aussi pour le mettre en terre et on plante la racine, une racine charnue, ronde et grosse ». (Théophraste, Recherches sur les plantes, III, Amigues). </p></note>. 
+        </p>
+                <p>[3] Caulis et cum<note type="philo"><p>Caulis et cum] Caulis et cum A : Caulis, et cum B C. </p></note> eo flos erumpit, ut in croco, antequam folium : quod non antequam reflorescat, cernitur. Caulis cum flore suo emoritur<note type="comp"><p>Théophrase, VII, 13, 6 : « Ὅταν δὲ οὗτος ἀπογηράσῃ, τότε ἡ τῶν φύλλων βλάστησις πολλαῖσ ἡμέραις ὕστερον. Ὡσαύτως δὲ καὶ ἐπὶ τοῦ ναρκὶσσου, πλὴν οὔτε καυλὸν ἕτερον ἔχει παρὰ τὸν τοῦ ἄνθους, ὥσπερ εἴπομεν, οὔτε καρπὸν φανερόν, ἀλλ'αὐτὸ τὸ ἄνθος ἅμα τῳ καυλῳ καταφθίνει καὶ ὅταν αὐανθῃ, τότε τὰ φύλλα ἀνατέλλει. ». Ce qui est traduit : « Une fois la tige flétrie, les feuilles commencent à pousser, beaucoup plus tard. Il en est de même dans le cas du narcisse, sauf que celui-ci n'a pas de tige autre que la tige florale, comme nous l'avons dit, ni de fruit visible, et que la fleur même périt avec la tige, puis, quand elles se sont desséchées, vient le moment où les feuilles apparaissent. ». (Théophraste, Recherches sur les plantes, IV, Amigues). </p></note>. Radix Bulbo assimilis, nisi quod non est squamata. Narcissus toties florendo, tria sationum tempora demonstrat<note type="comp"><p>Dans l'édition de 1530, on peut lire : « Narcissus ter florendo, tria sationum tempora demonstrat ». Chez Théophraste, on peut lire : VII, 13,6 : « Ποιεῖται δὲ τὰς ἀνθήσεις τρεῖς  », ce qui est traduit : « La floraison se fait en trois parties ». (Théophraste, Recherches sur les plantes, IV, Amigues).  Dans son commentaire, Amigues précise que ce passage n'est pas clair dans le texte de Théophraste et a soulevé beaucoup de question, et notamment une reprise fautive de Pline qui écrit au sujet de la scille, (plante associée par Théophraste au narcisse) : XXI, 106 : « eadem ter floret, ut diximus, tria tempora arationum ostendens », ce qui est traduit « la scille fleurit trois fois, comme nous l'avons dit, indiquant les trois époques du labourage ». On peut supposer qu'Hermolao Barbaro s'est insipiré de la traduction de Pline. Si la leçon que donne Brunfels est différentes, en revanche, il semble avoir compris que le narcisse fleurit plusieurs fois dans l'année, comme l'indique le commentaire marginale à cet endroit du texte, dans lequel Brunfels écrit « Narcissus saepius floret miraculo naturae », ce qu'on peut traduire « le narcisse fleurit plutôt souvent, par un miracle de la nature ». </p></note>. In coronamenta flore ueniens. A Narce, hoc est, torpore dictus : quoniam caput gravet : non ut fabulae, a puero<note type="comp"><p>Pline, XXI, 128 : «caput gravantem et a narce narcissum dictum, non a fabuloso puero »</p></note>. 
+                </p><p>[4] Plinius duo genera constituit. Unum flore candido, calice purpureo. Alteri caetera eadem tribuit, sed calicem haerbaceum. Omnes inquit serotini. Post<note type="philo"><p>serotini. Post] serotini. Post A : serotini : post B C. </p></note> Arcturum enim florent, ac per aequinoctium Autumni<note type="comp"><p>Pline, XXI, 25 : « Sunt et purpurea lilia, aliquando gemino caule, carnosiore tantum radice maiorisque bulbi, sed unius ; narcissum uocant. Huius alterum genus flore candido calice purpureo. Differentia a liliis et haec, quod narcissis in radice folia sunt, probatissimis in Lyciae montibus. Tertio generi cetera eadem, calix herbaceus. Omnes serotini, post arcturum enim florent ac per aequinoctium automnum. »</p></note>. Duo haec inquit genera medici praecipiunt<note type="comp"><p>Pline, XXI, 128 : « Narcissi duo genera in usum medici recipiunt, purpureo flore et alterum herbaceum ». 
+                </p></note>, quasi et alia sint, quae non recipiant, hoc est (ut arbitror) genus illud quod uere, aut aestate nascitur : ut ex Theophrasti sententia praediximus<note type="comp"><p>Ici, Hermolao Barbaro fait la synthèse de théophrase sur la période de floraison. Théophrase, VI, 8, 1 puis VI, 8, 3. </p></note>. Sciendum porro est, cum florem eius nigrum a Theophrasto dici legimus, non de flore ipso, quem candidum esse conuenit, intelligi, sed de semine : quod et membrana contegi, et nigrum, ac praelongum esse constat : quo in terram cadente, propagat se, atque serit Narcissum. 
+        </p>
+                <p>[5] Eumachus cyrenaeus in Rhizotomico, etiam Crotalon, et Acacalida Narcissum uocari tradidit<note type="comp"><p>Athénée, Deipnosophiste, 681 e : « Εὔμαχος δ' ὁ Κορκθπαῖος ἐν Ῥιζοτομικῷ καὶ ἀκακαλλίδα φησὶ καλεῖσθαι τὸν ναρκισσον καὶ κροταλον. »</p></note>. Nam et Crotos in Hippocrate, ad ulcera uetera, et uulnera recentia probata, quid aliud sit quam Narcissus, non uideo<note type="comp"><p>Nous n'avons pas trouvé la citation d'Hippocrate à laquelle Hermolao Barbaro fait référence.</p></note>. Nisi quis Crotum pro Crotone, hoc est, Cici capias in eo. Iulius Pollux autor est, Theophrasti morem fuisse, Lirium pro Narcisso dicere : Homerum uero Lirii appellatione, complecti florum omne genus. Narcissum ab adolescente suimet amore capto, et in eum florem conuerso, natum in Boaetia Thespienses garriunt, fontem Donaca monstrantes, ubi se specularetur<note type="philo"><p>specularetur] specularetur A : speculatur B C.</p></note> puer stultissimus : qui umbram suam a se nesciret distinguere. Coarguit hanc fabulam uetustissimus<note type="philo"><p>uetustissimus] uetustissimus A C : uetustissimns B. </p></note> poeta Pamphilus, qui Proserpinam multis annis antequam Narcissus esset, captam a Plutone cecinit, carpentem Narcissos<note type="comp"><p>Il s'agit probablement d'une évocation à la Description de la Grèce de Pausanias dans laquelle on peut lire à la référence IX, 31, 9 : « νάρκισσος δὲ ἄνθος ἡ γῆ καὶ πρότερον ἔφυεν ἐμοὶ δοκεῖν, εἰ τοῖς Πάμφω τεκμαίρεσθαι χρή τι ἡμᾶς ἔπεσι· γεγονὼς γὰρ πολλοῖς πρότερον ἔτεσιν ἢ Νάρκισσος ὁ Θεσπιεὺς Κόρην τὴν Δήμητρός φησιν ἁρπασθῆναι παίζουσαν καὶ ἄνθη συλλέγουσαν, ἁρπασθῆναι δὲ οὐκ ἴοις ἀπατηθεῖσαν ἀλλὰ ναρκίσσοις. », ce qui est traduit : « la fleur de narcisse est née, d'après moi, avant cela, s'il faut en juger par les vers du poète Pamphos. Ce poète est né de nombreuses années avant le Narcisse de Thespie, et dit que la jeune fille, fille de Déméter, a été enlevée alors qu'elle était en train de jouer et de cueillir des fleurs, et que les fleurs par laquelle elle a été trompée n'étaient pas des violettes mais du narcisse ». (Pausanias, Description of Greece). </p></note>. 
+        </p>
+        
+        <p>Idem rursus in Corollario Liliorum.</p> 
+        
+                <p>[6] Lilii quadruplex genus in Theophrasto. Primi flos uere cum Viola saepe alba, pauloue postea erumpit. Hoc ab eo proprie, Crinon, hoc est, Lilium uocatur. Alterum genus Lirium appellat, uere quidem omnino florens, uerum serius cum Narcisso. Forteque hoc sit, quod a Plinio Lilium trans maria nuncupatum est. Tertium aestate floret, et Cerinthum priuatim uocari puto : quamquam et alias res Cerinthus significat, ut inferius liquebit. Quartum genus, quod item Lirium graeci appellant. Autumno floret : emicatque primis hymbribus<note type="comp"><p>Barbaro fait probablement un récapitulatif de différents passages de Théophraste, notamment en VI, 6, 3 et VI, 6, 8 ; et VI, 8, 3, dans lesquels l'auteur antique évoque différentes espèces de lys. Il semble avoir recoupé ces informations avec celles données par Pline l'Ancien, notamment en XXI, 64 et XXI 67. Les commentaires d'André sur ces passages éclairent la compréhension du texte, indiquant que Pline identifie une espèce de lys de plus que Théophraste. Dans le texte de Barbaro, il est ainsi question tout d'abord d'un lys de Chalcédoine (crinon), puis d'un narcisse (lirium) et enfin d'une autre espèce de narcisse, plus tardive, qu'André identifie comme le Narcissus serotinus L. (Pline l'Ancien, Histoire naturelle, XXI, André). </p></note>. 
+                </p><p>[7] Est et rubens Lilium, differens (ut arbitror) a Purpureo, uisum a nobis Patauii in Felicis horto. Probatissimum in Antiochia, et Laodicaea Syriae : mox Phaselide : quartum locum obtinente, quod in italia nascitur. Hoc genus proprie Crinon a Graecis uocari, et florem eius Cynorhodon<note type="comp"><p>Pline, Histoire naturelle, XXI, 24 : « Est et rubens lilium quod Graeci crinon vocant, alii florem eius cynorrhodon. Laudatissimum in Antiochia ac Laudicea Syriae, mox in Phaselide. Quartum locum optinet in Italia nascens. ».</p></note>, autor est Plinius. Hoc et Hippocrates accaeperit, cum rubentia Cynorhoda  foeminarum purgationibus commendat in uino. 
+        </p>
+                <p>[8] Lilia purpurea et arte fiunt, maceratis in faece uini scapis antequam serantur, mense Martio, et in scrobe circumfusis eadem faece : in quem usum scapos arescentes colligunt Iulio mense, Lilia in fumo suspendentes<note type="comp"><p>Pline, Histoire naturelle, XXI, 26 : « Colligantur namque mense Iulio scapi arescentis lilii atque suspenduntur in fumo ; dein nudantibus se nodulis in faece nigri uini uel Graeci mense Martio macerantur ut colorem percipiant, atque ita in scrobiculis seruntur heminis faecis circumfusis. Sic fiunt purpurea lilia ». </p></note>. Caule gemino Purpurea uisuntur aliquando, carniosiore<note type="philo"><p>carniosiore] carniosiore A : carnosiore B C. </p></note> tantum radice, maiorisque bulbi, calix haerbaceus. Post Arcturum et aequinoctium Autumni florent Purpurea : quorum genus unum uocant Narcissum : cui uidelicet in radice sunt folia, calices, ut diximus haerbacei, caetera eadem quae candidis. Albo nihil est foecundius, una radice quinquagenos saepe nutriente bulbos<note><p>Il s'agit sûrement ici d'une réécriture de Pline, Histoire naturelle, XXI, 25, dans lequel on trouve : « Sunt et purpurea lilia, aliquando gemino caule, carniosore tantum radice maiorisque bulbi, sed unius ; narcissum uocant. Huius alterum genus florecandido, calice purpureo. […] Omnes serotini, post arcturum enim florent ac per aequinoctium autumnum. ». </p></note>. 
+        </p></div2></div1>
+        
+        <div1><head>Iudicium Marcelli Vergilii de Narcisso. </head>
+        
+            <div2><p>[9] Lilio congenerem Narcissum antiquiores omnes faciunt, a Lilio statim continuata historia de eo agentes. Omniumque certissime Theophrastus lib[ro]<note type="philo"><p>lib[ro]] lib. A B C.</p></note> 6. de plantarum historia his uerbis inter caetera de eo agens, ὃ δὲ νάρκισσος ὴ τὸ λείριον, ὁι μὲν γὰρ τοῦτο ὁι δ'ἐκεῖνο καλοῦσιν<note type="comp"><p>Théophrase, Recherches sur les plantes, VI, 6, 9 : « Ὁ δὲ νάρκισσος ἢ τὸ λείριον – οἱ μὲν γὰρ τοῦτο, οἱ δὲ ἐκεῖνο καλοῦσι », ce qui est traduit « narkissos ou leirion (on lui donne qui ce dernier nom, qui le précédent) ». (Théophraste, Recherches sur les plantes, III, Amigues).</p></note>. Quod est. Narcissus autem aut Lirion. Sunt enim qui hoc, et qui illo nomine appellent. Manifesto argumento, congenerem, aut similem saltem Lilio Narcissum esse. Ex quo Lirion, qua uoce Lilia ueteres appellauerunt, et ipse quondam dici poterat : etsi ex antiquis graecis testati aliquot<note type="philo"><p>aliquot] aliquot A : aliqui B C.  </p></note> fuerint, Lirion priuatim Narcissum indicare. 
+            </p><p>[10] Quemadmodum Crinon solum Lilium. Addiderunt quidam, etiam ab Homero flores omnes una Lirii appellatione indicari. Quod et Aristophanes in Comoedia etiam seruasse creditur. Sed quemadmodum nos in scriptore hoc, et in aliis obseruauimus, uaga haec nomina, similitudo, et pene aedem natura fecit. Vocarique solitum Lilium a graecis Lirion, manifeste hic scriptor ostendit, cum ait. Quidam etiam quemadmodum Lilium Lirium Narcissum uocant. Videnturque Latini una tantum mutata litera, et ut balbutientes solent pueri. pro, r, l, pronunciasse : sicque ex graecorum Lirio suum Lilium fecisse : eodem modo quo lepidissimus graecorum comicus in equitibus suis blesa lingua in concione loquentem Alcibiadem finxit, ὁλᾶς θέωλος κεφαλὴν κόλακοσ ἒχει<note type="comp"><p>Aristophane, Les Guêpes, 45 : « ὁλᾷς ; θέωλος κεφαλὴν κόλακοσ ἒχει ». </p></note>. Cum tamen in eo quod intelligi uolebat, ubi, l, litera<note type="philo"><p>ubi, l, litera] ubi, l, litera A : ubi l, litera B C. </p></note> auditur, intelligenda, r, erat<note type="philo"><p>intelligenda, r, erat] intelligenda, r, litera  A : intelligenda r, litera B C. </p></note>, ὁρᾶς θέωρος κεφαλὴν κόρακος ἒχει. 
+        </p>
+                <p>[11] Sed ut rem nostram agamus, pro comperto sit, congenerem Lilio, aut illi penitus similem Narcissum esse : et quoniam dolores et torpidas capitis grauitates faciat, a narce, qua uoce graeci torporem indicant, non a fabuloso puero, ut poetae finxerunt, Narcissum graecis dictum fuisse. Testes in eo nomine rationis eius sunt Plinius. 21. uolumine, cap[ite]<note type="philo"><p>cap[ite]] cap. A B C.</p></note> .19<note type="comp"><p>Le passage se trouve aujourd'hui à la référence XXI, 128, voir note g. </p></note>. et Symposii sui. 3. commentario, cap[ite]<note type="philo"><p>cap[ite]] cap. A B C. </p></note> .1. Plutarchus. Cuius obiter de Narcisso uerba haec sunt. κὰι τὸν νάρκισσον ὡς ἀμϐλύνοντα τὰ νεῦρα κὰι βαρύτητας ἐμποιοῦντα<note type="philo"><p>ἐμποιοῦντα] ἐμποιοῦντα A : ἔμποιοῦντα B C. </p></note> σαρκώδεις. διὸ κὰι σοφοκλῆς ἀυτὸν ἀρχαῖον μεγάλον θεῶν τουτέστι τῶν χθονίων στεφάνωμα προσηγόρευκε<note type="comp"><p>Plutarque, Propos de table, III, 1, 3, B : « καὶ τὸν νάρκισσον ὡς ἀμβλύνοντα τὰ νεῦρα καὶ βαρύτητας ἐμποιοῦντα ναρκώδεις· διὸ καὶ Σοφοκλῆς αὐτὸν  « ἀρχαῖον μεγάλων θεῶν στεφάνωμα » , τοθτέσι τῶν χθονίων, προσηγόρευκεν. », ce qui est traduit « et le narcisse parce qu'il engourdit les nerfs et provoque une pesante torpeur, ce qui lui a valu de la part de Sophocle l'appellation « couronne antique des grande déesses », c'est-à-dire des déesses infernales ». (Plutarque, Propos de Table, Fuhrmann). </p></note>. Quod est. Et Narcissum appellauerunt, quasi neruos hebetantem, et torpidas facientem grauitates. Quapropter et Sophocles magnorum Deorum, id est, subterraneorum coronamentum eum uocauit : quod scilicet defuncti et morte torpidi, torpido flore merito coronarentur. 
+        </p>
+                <p>[12] Anydron uocasse quosdam Narcissum etiam in Dioscoride legitur<note type="comp"><p>Dioscoride, De Materia Medica, IV, 158, « νάρκισσος·οἱ δὲ νάρκισσος ἄνυγρος, οἱ δὲ αὐτογενές, οἱ δὲ βολβὸς ὁ ἐμετικός, οἱ δὲ λείριον, Ῥωμαῖοι βούλβους βομιτώριους.». </p></note> : idque nos factum illi nomen credimus, quod longe ab aquis in montanis floret. Quod etiam illi adiectum est Autogenes, quae uox a seipso genitum, uel per se nascens significat, rationem eam habet quam Theophrastus his uerbis indicauit. ὁυτος δ'ἐκ πίπτων ποιεῖ βλάστησην ἀυτόματον<note type="comp"><p>Théophraste, Recherches sur les plantes, VI, 6, 9 :  « οὗτος δ'ἐκπίπτων ποιεῖ βλάσησιν ἀυτόματον. », ce qui est traduit : « Ce dernier en tombant donne naissance à une plantule, spontanément ». (Théophraste, Recherches sur les plantes, III, Amigues). </p></note>, de flore et semine dicta ea sunt, significantque. Hic autem decidens sponte sua germinat et nascitur. Etsi idem scriptor statim testetur, colligi semen eius, serique opere humano, nec minus etiam, ut in caeteris Bulbis plantari radicem. Vocari a quibusdam etiam Vomitorium Bulbum in Dioscoride audimus : haud sane, quia idem Vomitorio Bulbo sit, qui. 2. uolumine descriptus est, sed quia bulbosae radicis, simulque Vomitorius ut ille est : quem in antiqua medicina habet praecipuum usum<note type="comp"><p>Le chapitre 157 du livre II du De Materia Medica  est consacré à un bulbe dit émétique, mais comme le souligne Barbaro, Dioscoride ne dit pas qu'il s'agit d'un narcisse. L'humaniste italien explique ici que le bulbe du narcisse a des vertus émétique, sans pour autant être le bulbe émétique décrit au livre II de l'ouvrage de Dioscoride. </p></note>. 
+                </p><p>[13] Serebatur quondam in hortis ad coronamenta Narcissus : nunc montanis locis, in quibus nascitur, quaerendus est : non difficilis inuentu, si diligentius quaeratur. Totam enim, excaepta caulis altitudine, et calathi ambitu, quae duo minora, quam in Lilio sunt, Liliorum speciem referre eum testati omnes sunt. Et praeter id serotinus flos (post arcturum enim Augusto mense, et ad Autumni<note type="philo"><p>Autumni] Autumni A C : Automn B. </p></note> aequinoctium floret), inter Lilia floresque alios, qui fere omnes tunc defecerunt, latere non potest. Habet et alias in scriptore hoc notas, quibus deprehendi possit : Folia porracea : quae Plinius in radice esse illi ait, minora tamen et angustiora : Concauum caulem, et sine foliis dodrantali altitudine : Postremoque florem candidum, in medio croceum : et quod alteri eius generi competat, necesse est, in aliquibus purpureum. </p>
+                <p>[14] In qua descriptione, nisi in cunctis graecis, quos hactenus uidere licuit, uitium sit, ratiocinari oportet, duplicem esse Narcissum. Quod Plinius sane manifeste indicat duobus locis. Primum .21. uolumine, capite .5. in Liliorum historia, dicens. Narcissum uocant, huius alterum genus candido flore, calice purpureo<note type="comp"><p>La référence actuelle pour ce passage est Pline, XXI, 25, où on peut lire « narcissum uocant. Huius alterum genus flore candido, calice purpureo ». </p></note>. Mox eiusdem libri, cap[ite]<note type="philo"><p>cap[ite]] cap. A B C. </p></note> .19. Narcissi duo genera in usu medici recipiunt. Unum purpureo flore : et alterum herbaceum<note type="comp"><p>Vergilius reprend ici Pline, XXI, 128 : « Narcissi duo genera in usum medici recipiunt, purpureo flore et alterum herbaceum. ».</p></note>. 
+                </p><p>[15] Non leui, ut uidetur in docendis his uarietate. Siquidem in priore illa descriptione, alterum Narcissum flore candido, et calice purpureo : in posteriore alterum purpureo flore, alterum uero herbaceum esse dixit. Theophrastus quod hactenus in eo obseruauerim, cum saepius Narcissi meminerit, nulla huiuscemodi generum diuisione usus est : semperque tamquam unus Narcissus sit de eo docet, nunc folia, nunc florendi tempus, nunc caulem describens : a quo credimus Plinium alterum genus herbaceum uocasse. Siquidem in eius historia inter caetera auditur, τὸν δε καυλὸν ἄφυλλον μὲν ποώδη δὲ<note type="comp"><p>Théophraste, Recherches sur les plantes, VI, 6, 9 : « τὸν δὲ καυλὸν ἄφυλλον μέν, ποώδη δὲ ». Ce qui est traduit par : La tige est dépourvue de feuilles, herbacée. </p></note>. Quod est. Caulem quidem sine foliis, uerumtamen herbaceum. Ex quo potuit Plinius non a flore herbaceum alterum id genus appellare. Non ideo tamen non recipiendum duplicem<note type="philo"><p>recipiendum duplicem] recipiendum duplicem A : recipiendum, duplicem B C. </p></note> Narcissum esse. Hoc enim a Dioscoride, Plinioque, et ab aliis traditur. Sed quae eorum discrimina in flore docentur, non satis et in scriptore hoc, et in Plinio certa sunt. 
+        </p>
+                <p>[16] Caetera quidem, ut ex Theophrasto patet, eandem habent historiae ueritatem. Ille enim. 6. de plantarum historia Narcissum his uerbis descripsit. Narcissus uero, aut Lirium (sunt enim qui hoc, et qui illo nomine appellent) folium Asphodeli figura terrae proximum habet : latius tamen quam Asphodeli, et quasi liliaceum. Caulem nudum quidem foliis, uerumtamen herbaceum : in summo cuius flos est. Semen ueluti in uasculo membrana quadam clausum, grande, nigrum, et figura oblongum. Id decidens sponte sua germinat. Verum tamen id colligentes, etiam in terra depangunt. Serunt et radicem, quam rotundam, carnosam et grandem habet. Serotinus flos est. Post arcturum enim circa aequinoctium floret<note type="comp"><p>Vergilius reprend ici in extenso Théophrase, VI, 6, 9.</p></note>. 
+        </p>
+                <p>[17] Idem eodem libro in foliorum disciplina ait, Narcissum angusto, numeroso, et, pingui folio esse. Nec multo post de caulibus plantarum agens ait. Mirabile autem in cunctis quod in Scylla et Narcisso accidit. In aliis enim et quae a principio conseruntur, et per se regerminant, uere folia primum prodeunt, dein caulis : in his autem , id est, Scylla et Narcisso caulis praecedit, et in Narcisso floris tantum caulis. Post quaecum longius descripsisset scyllae caulis et floris ortum, subijecit. Cum autem caulis hic consenuerit, tunc post aliquot dies folia prodeunt. Similiterque et in Narcisso fit, πλὴν ὂυτε καυλὸν ἔτερον ἒχει παρὰ τὸν τοῦ ἄνθους ὥσπερ ἐίπομεν. ὂυτε καρπόν φανερόν<note type="philo"><p>φανερόν] φανερόν A : φανερὸν B C. </p></note> ἀλλὰ κὰι ἀυτὸ τὸ ἄνθος ἅμα τῶ καυλῶ καταφ'θίνει κὰι ὅταν ἀυαντῆ τὸτε τὰ φύλλα ἀνατέλλει<note type="comp"><p>Théophraste, VII, 13, 6 : « πλὴν οὔτε καυλὸν ἕτερον ἒχει παρὰ τὸν τοῦ ἄνθους, ὥσπερ ἐίπομεν, οὔτε καρπὸν φανερόν ἀλλʹαὐτὸ τὸ ἄνθος ἅμα τῷ καυλῷ καταφθίνει καὶ ὅταν αὐαντῆ, τότε τὰ φύλλα ἀνατέλλει », ce qui est traduit « sauf que celui-ci n'a pas de tige autre que la tige florale, comme nous l'avons dit, ni de fruit visible, et que la fleur même périt avec la tige, puis quand elles se sont désséchées, vient le moment où les feuilles apparaissent ». (Théophraste, Recherches sur les plantes, IV, Amigues). </p></note>, id est, uerumtamen nullum alium caulem praeterquam floris causa<note type="philo"><p>causa] causa  A B : caussa C. </p></note> prolatum, ut praemonstrauimus, Narcissus habet. Manifestum itidem non habet semen. Flos autem ipse una cum caule arescit, et cum aruerit, tunc folia emergunt<note type="comp"><p>Vergilius sélectionne, pour ce paragraphe [17], les passages qui consernent le narcisse dans le livre VII, chapitre 13 de Recherches des plantes de Théophraste. </p></note>.
+                </p><p>[18] Praeterea florere prius Scyllam, postea uero Narcissum, idem paulopost testatur scriptor. Nosque tam multa ex eo collegimus, ut facilius et certius deprehendi possit tanti nominis in antiquorum coronamentis flos. Quae enim Plinius diuersis locis de eo tradidit, ex Theophrasto quidem deflexa sunt : sed tanta braeuitate ab eo tractata, ut obscuriora legentibus aliquando sint : et ut respondere sibi inuicem Theophrastus et Dioscorides<note type="philo"><p>Dioscorides] diosc. A:Discorides scripsi</p></note>. Videantur. Cuncta enim de foliis, caulibus, et semine ambobus eadem sunt. Floris color, et coloris discrimen in Theophrasto tantum desyderatur : idque obseruasse et discreuisse legentes oportet : praesertimque quod hic croceum et purpureum in medio describit : quod Plinius florem appellat, non satis certo intellectu, totum ne florem sic vocet, an quae crocata in eo sunt et purpurea, ut hic manifeste docet. Potest enim utraque pars flos dici : quemadmodum in Viola nigra de duplicis floris ex disciplina Theophrasti floribus diximus. 
+                </p><p>[19] Nos in Apenninis montibus his nostris, frequentem uidimus florem Augusto et Septembri mensibus florentem, figura Lilii, dodrantali altitudine : foliis qualia in Narcisso hoc describuntur : singulari caule, iisdemque aliis omnibus, excepto colore, qui nec candidus<note type="philo"><p>candidus] canaidus A : candidus B</p></note>, nec purpureus ut Plinius docet sit, sed inter candidum et luteum colorem nullius, aut exigui odoris. Vidimus et in mitioribus collibus natum, sed non tam speciosum, et magis albicantem : diuque credidimus Narcissum eum esse : necque ab opinione ea longius adhuc discedimus. 
+        </p>
+                <p>[20] Inclinat enim animus, potuisse antiquis uagum Narcissi nomen esse : et ut in plantarum disciplina saepe alias testati sumus, congeneribus, similibusque multis communem eam appellationem fuisse. Tantumque abest, ut constituamus luteo colore Narcissum esse : ut inueniendum hunc florem legentibus relinquamus, qui candido colore sit, croceis intus staminibus, et in aliquibus purpureis : quod unum in colore eius a Diosc[oride]<note type="philo"><p>Diosc[oride]] diosc. A B C. </p></note> discrimen traditur. Nobis enim hactenus uidere non licuit candidos Liliorum figura flores, capillamentis, aut staminibus intus purpureis. 
+                </p> <p>[21] Relinquimus etiam petrtioribus<note type="philo"><p>petitioribus] petitioribus A : peritioribus B C. </p></note>, cogitandum, probauerit ne hic scriptor Narcissus simpliciter montanis locis nascentem, ut a satiuo et hortensi secerneret<note type="philo"><p>secerneret] secerneret A B : se cerneret C. </p></note> : an desyderari ultra aliquid possit, quale scilicet Plinius ait probatissimum nasci in Lyciae montibus : in quam partem propensiores trahimur. Superlatiuum enim illud κάλλισος<note type="philo"><p>κάλλισος] κάλλισος A C : κάλλὶσος B.</p></note>, certiores sibi nescio quomodo natales locos exigere uidetur : et praepositiuus ille articulus eodem sensu rem etiam indicare credi potest. Suspicio tamen haec sit, non decretum. Qualis etiam est in uerbo πρασίζει, quod statim sequitur, significet ne uirescere, et herbaceo colore esse : an potius a Porro uerbum factum fuerit, significetque Porri odore sentiri. Quod tamen nullibi inuentum in antiquis a nobis est. Quae omnia diligentius obseruanda et constituenda aliis relinquuntur. 
+        </p></div2></div1>
+        
+        <div1 ref="18"><head>In Narcissum iudicium nostrum</head>
+        
+            <div2><p>[22] Ab annis fere duobus, uehementer nos torsimus, et omnibus pene nostrae urbis doctis uiris molesti fuimus, proinde et ex uulgo haerbariis illis, ut nomen saltem huius floris percunctaremur : uerum adeo certi nihil ualuimus expiscari, ut mirari satis non queamus, quomodo haerba, alioqui uilissima, tamque in omnibus pratis, cum hirundine prima conspicua, ex omni hominum noticia disperierit. Flori nomen, Hornungs Bluom. Sic enim in superiori Germania eam appellant. Fuerunt ergo, qui persuadere nobis conabantur, albam Violam esse, quia prima Veris flos est alba Viola. Alii constanter Ligustrum adseruerunt, aut illi certe congenerem : donec in Narcissum Theophrasti et Dioscoridis incidimus, et herbarios aliquot percuntari coepimus : qui non ex libris sapiebant, sed experientia<note type="philo"><p>experientia] experientia A B : expertentia C. </p></note> rerum edocti erant. 
+            </p><p>[23] Sic in Narcissum omnia quadrare animaduertimus, ut nisi plane noctuinis oculis simus, uidemur nobis semel apprehendisse. Quod igitur ex haerbariis accaepimus, quoque partim etiam nos obseruauimus, id est. Duorum, inquiunt illi, generum flos est, Mas. s. et Foemina, purpureus, luteus, et albus. Bis etiam in anno florent, semel in Martio, inde in Septembri. Pentecoste semen fundit. Et initio quidem albo, et luteo<note type="philo"><p>luteo] luteo A B : lutco C.</p></note>, hyeme purpureo flore prodit. Idque naturae quodam miraculo se dicunt deprehendisse. 
+        </p>
+                <p>[24] Nam si quis fodere pertentauerit in Martio, uno digito facile exscalpit : ab eo autem tempore indies magis atque magis in terram desidit, idque usque ad Septembrem, quo tempore uix absque negocio effoditur. Interdum altitudine unius cubiti in terra delitescens, mox hyeme rursum succrescit, ut supra terram etiam exiliat, primo flore, et ubi adspirauerit Ver. Quod ita habere, et nos quoque experti sumus, obseruauimusque, primo teneram et bulbosam radicem, et Porri<note type="philo"><p>Porri] Porri A B : Poeri C. </p></note>, uel Satyrionis folia : mox eandem durari, et pinguiora folia, eaque sine caule, e radice tantum prodeuntia : in septembri prorsum et duratam, et profundisseme delitescentem, tenello tantummodo et liliaceo flore, palmi altitudine in summa terra se aperiente<note type="philo"><p>aperiente] aperiente A B : aperienre C. </p></note>, post alteram pratorum  detonsionem. 	
+                </p> <p>[25] Cui obseruationi<note type="philo"><p>obseruationi] obseruationi A B : obseruatiori C. </p></note> quoniam respondere uidimus Dioscoridis et Theophrasti Narcissum, postremo iis adstipulari doctorum etiam uirorum commentarios, ausi constanter sumus, Narcissi nomen indere, uel Lirii Februarii : ut diuersus quidem flos sit. Caeterum ex una radice bulbosa procedens, et qui a Dioscoride Narcissus, et ab Arabibus, et neotericis<note type="philo"><p>neotericis] neotericis A B : neothericis C. </p></note> Hermodactylus<note type="philo"><p>Hermodactylus] Hermodactyius A : Hermodactulus B</p></note> uocatur. 	[26] Quam autem probe haec obseruauerimus, et quam scite etiam illi nos docuerint, arbitrium aliorum, existimationemque uolumus esse, quos et ipsos tantae rei periculum aliquando facere monemus atque obsecramus. 
+       </p> </div2></div1>
+        
+        <div1 ref="1"><head>
+        Vires et iuuamenta ex Dioscoride </head>
+        <div2><p>Radix cocta, siue estur, siue bibitur, uomitoria est.
+<lb/>        Ambustis igni prodest, cum exiguo melle trita.
+<lb/>        Praecisos neruos illitu glutinat. 
+<lb/>        Luxatis malleolis, diuturnisque articulorum doloribus, trita ex melle et imposita subuenit.
+<lb/>        Vitia cutis in facie, uitiliginesque cum semine Urticae et aceto emaculat.
+<lb/>        Cum eruo et melle ulcerum sordes expurgat.
+<lb/>        Abscessus rumpit concoctioni repugnantes.
+<lb/>        Infixa corpori extrahit, illita cum lolii farina, et melle. </p></div2></div1>       
+        <div1 ref="0">
+        <head>Autores et Descriptores</head>
+            <div2>Dioscorides, lib[ro]<note type="philo"><p>lib[ro]] lib A B C. </p></note> 4
+<lb/>        Herm. Barbarus
+<lb/>        Plinius
+<lb/>        M. Vergilius</div2></div1>
+       </body>
+    </text>
+    <text n="2">
+        <body>
+            <div1><head>De urticis, Rhapsodia XXIIII,</head>
+            <div2>Nomenclaturae
+            Greece, "termes grecs"
+                Latine, Vrtica.
+                Germanice, "termes allemands"
+                    Placita auctorum
+                    de Vrticis.</div2></div1>
+                    <div1 ref="1"><head>Dioscorides
+                    De Vrticis.</head>
+                    
+                    <div2><p>Duo urticae genera,
+                    scilicet , Syluestris asperio,latioribus
+                    nigrioribusque foliis , femine Lini, sed
+                    minore. Altera non aeque aspera, minuto semine.</p></div2></div1>
+                    
+                    <div1 ref="3"><head>Periocha Herm. Barbari de omnibus Vrticis.</head>
+                    
+                    <div2><p>Vrtic aex omnibus aculeatis generibus notissima est. Acetabulis in flore purpuream lanuginem fundentibus.
+                     Saepe altior binis cubitis. Mitior foemina est, inter fyluestres , quae dicitur Cania,acrior, caule quoque mordaci,fimbriatis foliis. Quae uero etiam odorem mittit, Herculanea uocatur . Semen omnibus copiosum,nigrum. Mirum, sine uillis spinarum, aculeis lanuginem ipsam noxiam, et tactu tantum leui,pruritum, pustulasaque adusto fimiles existere. Notum est remedium olei.</p>
+                    <p>Sed mordacitas non protinus cum ipsa haerba gignitur, nec nisi solibus roborata. Incipiens quidem ipsa nasci Vere,
+                    non ingrato , multis etiam religioso in cibo est,ad pellendos totius animi morbos. Syluestrium quoque radix,omnem carnem teneriorem facit simul cocta.
+                    </p><p>Quae uero ex iis mitissima,et foliis non mordentibus, Lamium, sine Aononium uocatur,a quibusdam Vrtica iners,et mortua . Album haec habet in medio folio, sacris ignibus utile , Quidam e nostris difcreuere genera temporibus, Autumnale appellando , et reliquas ad eandem rationem . Celebrat et Marinam cognomine Plinius ad uesice uicia. Conditlaudes Vrticae Phanias physicus, utilissimam cibis coctam, inueteratamque professus. </p>
+                    <p>Si quadrupedes foetum non admittant, Vrtica naturalia earum fricanda
+                    monftrant. Ex Vrtica in Aegypto fit oleum.Semen colligi messibus oportet. Alexandrinum maxime laudatur ad omnia. Vrticam Hippocrates Nidam uidetur appellasse , cum alii Cnidam uocent. Est ubi Clidam legas corrupte, ut censeo, nisi aliud genus sit. Grana inquit Clidae sexaginta,clystera uuluis iniiciantur, quas bilis infestauerit.</p>
+                   </div2></div1> 
+                    <div1 ref="7"><head>De eadem quoque Vergilius.</head>
+                    
+                    <div2><p>Vrtica nihil in censu olerum inuisius nascitur,igneo pruritu urens: et
+                    inde facto nomine. Vescebantur nihilominus ea antiqui. Suntque eius in 
+                    cibo ulus, teftes antiqui in latinis Poetae : quibus iocundum erat Ocimo
+                    fe et Vrtica recreare. Vbique,et omnibus tam nora haerba est, ut nihil monere in ea opus sit. Praterque a Graecis Cniden, ab eorum uerbo "terme grec" dictam fuiffe : significat id cum dolore pungi, uexarique. Vocauit Acalyphas etiam Ariftoteles in mari Vrticas, tactu eadem in urendo ui. Medetur ea multis in humano corpore morbis, plurimisque scaret remediis. Eamque ob caussam non minus ad medicinam , quem ad cibos medicis et olitoribus curanda.</p>
+                     </div2></div1>   
+                        <div1 ref="1"><head>De galiopsi simili Vrticis herba, Dioscorides</head>
+                        
+                        <div2><p>Galiopsis latinis Vrtica labeo dicitur . Frutex in totum caulem et folia habet Vrticae,laeuiora,et quae grauem odorem trita reddant. Flore purpureo,tenui. Nascitur circa sepes, adificia, ac semitas ubique.</p>
+                        </div2></div1>
+            <div1 ref="2">
+                <head>Vrticarum ex plinio diuisio.</head>
+                
+                <div2>Vrticarum plures differentiae. Syluestris, quam foeminam uocant, mitior. Et in syluestri,quae dicitur Cania , acrior,caule quoque mordaci, fimbriatis foliis. Quae uero etiam odorem fundit , Herculeana uocatur. Semen omnibus copiosum, nigrum. Mirum, sine ullis spinarum aculeis, lanuginem ipfam esse noxiam, et tactu tam leui pruritum, pustulasque confestim adusto similes existere. Notum est remedium olei. Sed mordacitas non protinus cum ipsa haerba gignitur,nec nisi solibus roborata. Incipiens quidem ipsa nasci Vere, non ingrato, multis etiam religioso in cibo est, ad pellendos totius anni morbos. Syluestrium quoque radix ,omnem carnem teneriorem facit simul cocta. Quae uero innoxia est, morsu carens Lamium uocatur. </div2>
+            </div1>
+            
+                        <div1 ref="8"><head>Temperamentum secundum Serapionem</head>
+                        
+                       <div2> <p>Calidae sunt et siccae Vrticae in tertio gradu.</p></div2></div1>
+                        
+                        <div1 ref="1"><head>Vires et iuuamenta
+                        ex Dioscoride</head>
+                        
+                        <div2>Folia utriusque illita, canis morsibus, addito sale, medentur. Gangrenas, carcinomata, sordida ulcera, et quae cacöethe uocantur.
+<lb/>                        Item luxata, panos, tubercula, parotidas, suppurationesque sanant.
+<lb/>                        Lienosis cum cerato imponuntur.
+<lb/>                        Faciunt ad profluuia narium, cum succo trita, et naribus indita.
+<lb/>                        Menfes ciunt, eadem recentia detrita cum myrrha, et imposita.
+<lb/>                        Procidentes uutuas,contactu resilire cogunt.
+<lb/>                        Semen potum ex passo, Venerem stimulat, uuluam aperit.
+<lb/>                        Cum melle delinctum, orthopnaeae , et lateris, et pulmonum inflammationibus prodest.
+<lb/>                        Thoracem expurgat.
+<lb/>                        Erodentibus medicamentis ammiscetur.
+<lb/>                        Cocta cum conchis folia, aluum emolliunt, urinas mouent, inflationes
+<lb/>                        discutiunt : decocta cum ptisana, uitia pectoris extrahunt.
+<lb/>                        Mulierum menses euocant, cum myrrhae modico pota.
+<lb/>                        Inflamatione turgentem uuam, gargarisatus succus reprimit.<lb/></div2></div1>
+                        
+                        <div1 ref="8"><head>Vires et iuuamenta
+                        ex Serapione cap. 150</head>
+                        
+                        <div2><p>Oleum Vrtice est magis laxatiuum, quem oleum carthami.
+                        Mouet coitum, quando comeditur cum cepis , et uitellis ouorum.
+                        Et de proprictate est, eiicere phlegma crudum.
+                        Quando excoriatur semen Vrticae, teriturque, et miscetur cum melle,laxat fortiter.
+                        Et cauendum est, ne contingat linguam, et caput meri : ne adurat ea.
+                        Et dosis eius est, a uiginti granis, usque ad .xxx.</p></div2></div1>
+                        
+                        <div1 ref="11"><head>Vires et iuuamenta
+                        ex Aemilio Macro.</head>
+                        
+                        <div2>Graecus Acalephen, nos Vrticam uocitamus.
+<lb/>                        Feruida non modice uis illi dicitur esse,
+<lb/>                        Vnde nec immerito nomen sumpfisse uidetur,
+<lb/>                        Tacta quod exurat digitos Vrtica tenentis.
+<lb/>                        Haec solet Ictericos cum uino sumpta iuuare.
+<lb/>                        Illius semen colicis cum melle medetur.
+<lb/>                        Et tussim ueterem curat, si saepe bibatur.
+<lb/>                        Frigus pulmonis pellit, uentrisque tumorem.
+<lb/>                        Omnibus his prodest puluis cum melle iugatus,
+<lb/>                        Aut succus uiridis cum uino saepius haustus.
+<lb/>                        Cum sale de foliis eius factum cataplasma,
+<lb/>                        Vlceribus prodest, et uulnera sordida purgat,
+<lb/>                        Et contra morsus ualet hoc cataplasma caninos.
+<lb/>                        Hoc cancros, et parotidas,luxataque curat,
+<lb/>                        Hocque reformatur caro quae discessit ab osse.
+<lb/>                        Et solet humeros hoc desiccare nocentes.
+<lb/>                        Acri cum uino radix contrita, tumorem
+<lb/>                        Compescit splenis, podagrae sic subuenit illa,
+<lb/>                        Omnibus et morbis sic subuenit articulorum.
+<lb/>                        Omnibus his prodest supperaddita, uel sibi iuncto
+<lb/>                        Si coquis hanc oleo, foueasque hoc unguine membra.
+<lb/>                        Naribus impositus succus, foliumue, cruorem
+<lb/>                        Elicit, innata est illi uis tanta caloris.
+<lb/>                        Quod si manantem cupias retinere cruorem,
+<lb/>                        Vrticae succo frontem line,reprimit illum.
+<lb/>                        Si supponatur cum myrrha, menstrua pellit:
+<lb/>                        Si caudit uuluam matrix, humore grauata,
+<lb/>                        Vrticae foliis reuocabitur illa fricata.
+<lb/>                        Cum uino bibitum uenerem semen mouet eius,
+<lb/>                        Et melius tritae, si iungas melque, piperque,
+<lb/>                        Et sic cum uino praedicto more bibantur.
+<lb/>                        Pleuriticos, pectus, pulmones, adiuuat eius
+<lb/>                        Semen, si sumptum fuerit cum melle iugatum,
+<lb/>                        Cum mulsa bibitum, lotium producit abundans.
+<lb/>                        Haerba recens eius olerum si more coquatur,
+<lb/>                        Detur et illius decoctio, molliet aluum.
+<lb/>                        Ore diu clausus succus si uoluitur eius,
+<lb/>                        Vuae non modicum poterit sedare tumorem.
+<lb/>                        Sudorem mouet ex oleo decocta perunctis.
+<lb/>                        Si quadrupes quaecumque marem perferre recusat,
+<lb/>                        Vrticae foliis illius uulua fricetur,
+<lb/>                        Sic naturalem calor excitat ille calorem.
+<lb/>                        Defluuium capitis, si succo feminis huius
+<lb/>                        Vngas saepe caput, reprimit, doctore Galeno,
+<lb/>                        Illius semen collectum tempore messis,
+<lb/>                        Et desiccatum, multis erit utile caussis.
+<lb/>                        Omnibus his prodest puluis cum melle iugatus.</div2></div1>
+                        
+                        <div1><head>Autores</head>
+                        <div2>Dioscorides lib.4. Acalyphen.
+<lb/>                        Plinius lib.21.cap.15.
+<lb/>                        Serapio,cap.150.
+<lb/>                        Macer aemilius.
+<lb/>                        Herm.Barbarus.
+<lb/>                        M,Vergilius.</div2></div1>
+        </body>                  
+    </text>
+    <text n="3">
+        <body>
+            
+          <div1><head>DE VNGVLA CABALLINA,
+            Rhapsodia Quarta.</head>
+            <div2><p>NOMENCLATVRAE<lb/>
+                Greece , ἄρκτιον<lb/>
+            
+            Latine, Personatia, Lappa, Vngula caballina.<lb/>
+            Germanicae,  Rosshoub.<lb/></p></div2></div1>
+            
+            <div1 ref="1"><head>Sententia Dioscoridis, de Personata,</head>
+            
+            <div2><p>Folia habet maiora etiam cucurbitis, et hirsutiora, et nigriora,et crassiora, caulem albicantem. Quamquam et interdum
+            uidua caule reperiatur, radice intus candida, foris nigra.</p></div2></div1>
+            
+            <div1 ref="2"><head>Sententia Plinii de Personata.</head>
+            
+            <div2><p>Quidam Arction Personatam uocant, cuius folio nullum est latius, grandes Lappas ferentem.</p></div2></div1>
+            
+            <div1 ref="3"><head>Decretum Hermolai Barb.
+            in Corollario de Personata.</head>
+            
+            <div2><p>Arction, siue Prosopites, Personatam quidem in latino sonat, sed pro Petasite tamen capitur a Plinio, dicente, folio Personatae nullum esse latius, grandes lappas ferentis, quos nos non in Arctio, sed in Petasite cernimus. Petasiten interpretor, quam uulgo Bardanam, et Lappam maiorem
+            interpretantur : Arction quae Vngula caballina dicitur. </p>
+            <p>Plinius differentiam in nomine tenuem constituit, Petasiten Personatam, Arction Persolatam appellando.Persolatam inquit, quam nemo ignorat,Graeci Arction uocant, folia habet maiora etiam cucurbitis, et hirsutiora, nigrioraque
+            et crassiora, radicem albam et grandem. Quae omnia fere cum Dioscoridis Arctio conueniunt. Nominatur et Persoluta, siue Persolyton a Plinio, herbae genus Aegyptiae in hortis seri coronamentis solitum, duobus
+            generibus,mas,et foemina, inhiberi subdita ea Venerem uirorum maxime prodendo. Illud commonuerim, maiora esse Personatae, hoc est, Petasitae ac Bardanae,quem Persolatae, hoc est, Arctii, et Vngulae caballinae folia.</p>
+            <p>Radicem Personatae candidam, digitali crassitudine, fastidiendi odoris:
+            Persolatae brachiali , et odoratam, flore in spica purpureo . Galenus et
+            hanc, et superiorem, eodem Arctii nomine appellat. Quod autem Perssonata sit, quam Lu.Culumella Personam uocari scribit, ne dubitem, facit, quod utilem pecori, quod uipera momorderit, scarificationi superpositam commemorat , quod et Plinius probat : et propterea a nonnullis Echion,quasi Viperariam tradit appellari.</p>
+            </div2></div1>
+            
+            <div1 ref="7"> <head>ἒπιγραφή Marcelli Vergilii de Personata.</head>
+            
+           <div2> <p>Personata hac utebantur quondam, ad personas tota Graecia et Italia,
+            quoties in Theatris aliisue locis , qui cognosci a populo nollent, egisse
+            quippiam uolebant, facili, sed non toto anno ad eam rem, ex incultis
+            pinguibus locis apparatis. Maio, Iunioque mensibus frequentem fuisse
+            palilibus et floralibus uerisimile est, tribus decerptis foliis, quorum uno frontem, duobus aliis utrinque malas uestiret, relictis inter eorum spacia liberis, uidendi, spirandi, loquendique meatibus .</p> <p>Est enim foliorum Personate tanta amplitudo, ut longe maius, quom humana facies est, tribus uestiri spacium possit. Neque immerito hic cucurbitarum foliis comparauit : figura enim illis respondet. Et si pinguiore loco nascantur , magnitudine etiam superant. Caussaque haec est, cur Graeci etiam , ab eodem personarum usu, Prosopida, et Prosopion uocauerunt, Lappa dicta est, quoniam illi congener est. Nascitur ubique Personata, et quoniam desierunt uti Christiani ad perfonas, ob eam quam diximus caussam, nec alios habet in sanitate usus, et parum hoc nomine nunc cognoscitur.</p>
+            </div2></div1>
+            
+            <div1 ref="5"><head>Calumnia Sententiae Plinianae, circa Personatam, Nicolai Leoniceni lib.de erroribus Medicorum.
+            </head>
+            <div2><p>Sed non est nunc nobis cum Auicena, sed cum Plinio negocium, quare
+            ad ipsum reuertamur. Hic lib.25. de Arctio, quamuis Echion errore codicis, ut arbitror,legatur, ita scribit. Arction quidam Personaciam uocant, non multos infra uersus , Plinius ita scribit, Personacia, quam nemo ignorat. Licet ante, et hic, pro Persolacia, Persolata, uiciose scribatur,tamen quod sequitur, probat Personaciam esse legendam. ita enim subiungit. Graeci uero Arction uocant : folia habet maiora etiam cucurbitis, et hirsutiora, nigrioraque, et crassiora, radicem albam et grandem.</p> <p>Haec ex uino bibitur, denariorum duorum pondere. Videtur profecto duo Arctii genera putauisse, quorum utrumque Personata diceretur, alterumque biberetur contra serpentes ex aceto, alterum ex uino. Attamen et Dioscorides, et Galenus, ac Paulus de uno tantummodo Arctio, Prosopite, Personacia scripserunt. Esse uero idem Arction,
+            siue eandem Personatam, quam primo et secundo loco describit Plinius, eiusdem Plinii uerba apertissime ostendunt. Nam de prima ita scribit. Quidam Arction , Personaciam uocant, cuius folio nullum est latius, grandes lappas ferentem . Hic autem proculdubio Plinius innuit illam, quae a nostris tum Bardana, tum Lappa maior uocatur. Quam ideo ueteres, Personatam dixerunt, quoniam hac propter amplitudinem foliorum, ad Personatos faciendos utebantur. Hanc vero eandem, eadem ratione Dioscorides, Galénus et Paulus Prosopitem, id est, Personaciam, nuncuparunt, ac foliis cucurbitae, ni grioribus tamen, atque hirsutioribus, constare tradiderunt.</p>
+            </div2></div1>
+            <div1 ref="6"><head>Apologia Pandulphi Collinucii pro Plinio, contra Leonicenum.</head>
+            
+            <div2><p>Vis et aliud uidere, indiligentis hominis argumentum de Personata.
+            Plinium taxat, quod duplicem illam esse crediderit. Tamen ut id uerum
+            esse comprobet, ne quid integri ad defensionem Plinio reliniquatur, nulla ratione Echion, pro Arctio, codicis uicio positum dicit. Sed ne sic quoque Plinium, aut seipfum intelligit : quod uerum esse mox agnosces. Post Agarici descriptionem, Echion herbam. 25. uolumine continuo fubiecit
+            Plinius, Quae quoniam capitula habeat, uiperis fimilia, ideo Echios, quasi uipera cognominatur. Duo huius genera, Pulegio similia, floribus coronata. Tertium lanugine spinofa, distinctum pingit, Addit preterea.</p>
+            <p>Quidam Echion Personatam dicunt (non Arction, ut praue inserere Nicolaus uoluit) quorum opinionem, quoniam longa foliorum et floris differentia improbaret : subiicit. Cuius scilicet Personate folio nullum est latius, grandes lappas ferentem. Ac si dicat. Tria Echii genera dixismus Pulegio similia, cui parua sunt folia, et quae floribus coronantur.</p>
+            <p>Falluntur qui Echion dicunt esse Personatam, grandes lappas ferentem,
+            cuius folio nullum est latius : quae omnia a Pulegii similitudine maxime
+            discrepant. Non intellexit in morsum praeceps Leonicenus Plinii uerba, illorum fententiam apposite improbantis, qui Echion Personatam esse
+            dicebant. Nam ea parte, qua Plinius scripfit, Cuius folio nullum eft latius : Leonicenus, cuius illud, ad Echion retulit : non ad Personatam, ut Plinius, et grammatica ratio postulabat.</p>
+            <p>Neque enim ideo duplicem Personatam esse credidit Plinius, quia quosdam Echion Personatam dicere, et ex aceto radicem dare scripsit. Nam hic de Personata non agebat, sed de Echio : de qua ut quaecumque ab auctoribus scripta compererat aperiret, ideo quosdam Echion dicere Personatam scripsit, et ex aceto dare potui.Non enim probe claudit (quod saepe diximus) quidam dicunt, ergo Plinius credidit : ac praesertim cum Echion triplicem pinxerit, et ex foliorum et floris differentia non esse Echion personatam aperte senserit : atque ideo post paucos uersus, non iam de Echio, sed de Personata notissima herba speciatim uerba facit : eamque Arction et personatam Graeca et Latina appellatione nuncupauit : neminemque illam ignorare dixit : ut eos etiam uidelicet distringeret, qui supra Echion paruis foliis herbam personatam latissimis constantem putauerunt. Bene ergo omnia quadrant. Sciatque deinceps Nicolaus hoc in loco bellissime significasse Plinium, atque ita credidisse, aliud Echion esse pulegio similem : aliud personatam foliis maioribus
+            cucurbitae : quas unam herbam esse quidam putauerunt.</p>
+            <p>Sed quoniam de Arctio sermo incidit, quando et pro Plinio et studiosis scribimus : ut haec nostra legentes (quantulacumque illa fint) aliquid semper arripiant, quod in communem utilitatem conferre possint (quod tota
+            defensione, quantum potuimus obiter curauimus, Leonicenus uero uitauit) hoc subnectere uisum est : quod Arction Graeci duplicem esse tradiderunt. Unam quidem, quae et Arcturion diceretur : cuius folia Phlomo (quam latine Verbascum dicimus) similia, crassiora tamen et rotundiora esse dixerunt : semen uero minuto Cymino simile : quod ram ipsum quam radix Ischiadicis et dysuriam patientibus efficaciter daretur.</p><p>Alterum, quam Arction, et Prosopiten, et Prosopion, et Aparinem dicerent : nos Personatam et Lappam de qua egimus : ambas quarto Dioscorides pinxit, Plinius Primam septimo et uigesimo : Alteram , quo diximus libro tradidit.
+            Sed Aparines nomen a Dioscoride positum, non probauit : quando aliam esse a Personata Aparinem, et figurae, et uirium diuerfitate monstrauit.</p>
+            </div2></div1>
+            <div1 ref="10"><head>Sententia Simonis Ianuensis de Vngula caballina.</head>
+            
+            <div2><p>Vngula Caballina, Farsana, ut quidam dicunt, Dardana , duas habet species. Minor, quae campis et locis siccis nascitur, et in uineis. Altera Maior, quae in marginibus aquarum semper inuenitur, maiore folio, nec angulis sic manifestis, et parua radix eius, odorifera, quam quidam Cassulam cordis uocant.</p>
+            
+            <p>Idem de Personatia.<lb/>
+            
+            Personatia inquit, in confectione Mithridati minoris, exponitur in antiquis Synonymis, quod est Bardana, Lappa maior, Dronega. Quod etiam
+            Plinius uidetur dicere. Personata inquit, a quibusdam Echion uocatur, cuius folio nullum latius, grandes lappas ferens. Sed alia est Echios,</p>
+            </div2></div1>
+           <div1> <head>Sententia autoris Pandectarum</head>
+            
+            <div2><p>Personatia in Antidotario, in confectione Mithridati minoris exponi
+            tur in antiquis Synonymis, quod est Lappa maior, Bardana, Dronega, Persoluta.</p></div2>
+           </div1>
+            <div1 ref="9">
+            <head>De Vngula Caballina sic Galenus. 6. simplicium, cap. de Tussilagine.</head> <div2><p>Et est Vngula Caballina, uel Nenuphar terrenum uel Farfana. Nominatur autem Tussilago, quod tussientibus, et orthopnoicis conferre creditur.
+                Et rursum, Tussilago, Chamaeleuce, Vngula Caballina, est species Tapsibarbati.</p></div2></div1>
+            
+            
+            <div1><head>Judicium nostrum.</head>
+            
+            <div2><p>Videtur plane uterque, et Ianuensis, et Pandectarum scriptor ignorasse
+            Vngulam Caballinam, et impositum illis a Plinio : quoniam alicubi Lappam uocat Personatiam. Nec legisse opinor, quae esset Arction apud Dioscoridem. Mihi apparet in re tam manifestaria, immerito nos torquere,
+            quando ad unguem prorfus quadrat in Caballinam Vngulam Dioscoridis
+            Arctii descriptio. Facit nobiscum Barbarus, et ipse acerrimi homo iudi
+            cii. De Plinio certe Collinutius uiderit.</p></div2></div1>
+            
+            <div1 ref="1"><head>Iuuamenta ex Dioscoride.</head>
+            
+            <div2><p>Drachmae unius pondere pota, cum pineis nucibus, purulentis extussientibus auxiliatur.<lb/>
+            
+            Trita, dolores in artubus astrictius uinctis, illitu sedat.<lb/>
+            
+            Folia utiliter antiquis ulceribus illinuntur.<lb/></p></div2></div1>
+            
+            <div1><head>Iuuamenta ex Apuleio</head>
+            
+            <div2><p>Personatiae herbae succus, cum uino ueteri in potionem datus, omnes
+<lb/>            morsus serpentium, uel colubri, mirifice sanat.           
+<lb/>            Item si iisdem foliis cingas febricitantem, febrim fugat.          
+<lb/>            At uulnus, etiamsi cancer erit, herbae Personatiae aqua foueto. Deinde ipfam cum nitro et axungia, et picula cum aceto tere, et in panno in ducito, et imponito.
+<lb/>            Ad intestinorum dolorem, herbae Personatiae succi cyathum unum, ex
+<lb/>            melle cyathis duobus ieiunus bibat.
+<lb/>            Radix cum sale marino trita, morsui canis rabidi imponitur, Sic et ad
+<lb/>            ambusta, succi eius cyathum, ex melle cyathis duobus da bibere.</p></div2></div1>          
+            
+            
+            <div1><head>Descriptores Personate.</head>
+            <div2><p>Dioscorides lib.4.cap. Arction.
+<lb/>            Plinius lib.25.cap.7.
+<lb/>            Hermolaus Barbarus in Corollariis.
+<lb/>            Vergilius Marcellus.
+<lb/>            Symon Ianuensis,
+<lb/>            Nicolaus Leonicenus,
+<lb/>            Apuleius,cap.36.
+<lb/>            Scriptor Pandectarum
+<lb/>            Pandulphus Collinutius.</p></div2></div1>
+        </body>
+    </text>
+</TEI>

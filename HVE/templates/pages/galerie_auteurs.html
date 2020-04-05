@@ -1,0 +1,22 @@
+{% extends "conteneur.html" %}
+{%block corps%}
+<h1>Galerie des differents auteurs</h1>
+<div class="container">
+	<div class="row">
+		{%for auteur in auteurs%}
+		<div class="col-sm-6" style="height: 250px; width: 300px;">
+			<a href="{{url_for('auteur', auteur_id=auteur.auteur_id)}}">
+			<div class="card" style="width: 200px; height: 200px">
+				{%if not auteur.auteur_image%}
+					<img src="../static/img/0.jpg" class="ident" alt="no image">
+				{%else%}
+					<img src="../static/img/{{auteur.auteur_id}}.jpg" class="ident" alt="{{auteur.auteur_nom}}">
+				{%endif%}
+				
+			</div>
+			{{auteur.auteur_nom}}</a>
+		</div>
+		{%endfor%}	
+	</div>
+</div>
+{% endblock %}
