@@ -9,7 +9,7 @@
 	<div class="row">
 		<div class="col-6">
     		{% if resultats_auteurs%}
-    		<p>Il y a {{resultats_auteurs|length}} auteurs qui répondent à votre requête :</p>
+    		<p>Il y a {{resultats_auteurs|length}} auteur.s qui répond.ent à votre requête :</p>
         	<ul>
             	{% for auteur in resultats_auteurs %}
                 <li><a href="{{url_for('auteur', auteur_id=auteur.auteur_id)}}">{{auteur.auteur_nom}}</a></li>
@@ -19,7 +19,7 @@
 		</div>
 		<div class="col-6">
     		{% if resultats_plantes%}
-    		<p>Il y a {{resultats_plantes|length}} plantes qui répondent à votre requête :</p>
+    		<p>Il y a {{resultats_plantes|length}} plante.s qui répond.ent à votre requête :</p>
         	<ul>
             	{% for plante in resultats_plantes %}
                 <li><a href="{{url_for('plantes', plante_id=plante.plante_id)}}">{{plante.plante_fran}}</a></li>

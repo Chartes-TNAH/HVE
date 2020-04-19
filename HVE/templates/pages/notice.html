@@ -6,7 +6,7 @@
 	<br/>
 	<br/>
 <p>Connectez-vous pour accéder aux textes ! </p>
-<a href="{{url_for('connexion')}}" class="btn btn-primary">Connexion</a>
+<a href="{{url_for('connexion', numero=numero, ident=ident)}}" class="btn btn-primary">Connexion</a>
 </div>
 {%else%}
 {{HTML|safe}}
