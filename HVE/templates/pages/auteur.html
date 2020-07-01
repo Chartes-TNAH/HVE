@@ -18,7 +18,7 @@
             </dl>
         </div>
         <div class="col-6 text-center">
-            <img src="../static/img/{{auteurs.auteur_id}}.jpg" class="ident">
+            <img src="{{ url_for("static", filename="img/{}.jpg".format(auteurs.auteur_id)) }}" class="ident" />
         </div>
     </div>
     <div class="row"> 

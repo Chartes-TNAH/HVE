@@ -8,9 +8,9 @@
 			<a href="{{url_for('auteur', auteur_id=auteur.auteur_id)}}">
 			<div class="card" style="width: 200px; height: 200px">
 				{%if not auteur.auteur_image%}
-					<img src="../static/img/0.jpg" class="ident" alt="no image">
+					<img src="{{ url_for("static", filename="img/0.jpg") }}" class="ident" alt="no image">
 				{%else%}
-					<img src="../static/img/{{auteur.auteur_id}}.jpg" class="ident" alt="{{auteur.auteur_nom}}">
+					<img src="{{ url_for("static", filename="img/{}.jpg".format(auteur.auteur_id)) }}" class="ident" alt="{{auteur.auteur_nom}}" />
 				{%endif%}
 				
 			</div>

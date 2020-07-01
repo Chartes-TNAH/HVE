@@ -12,7 +12,7 @@
 	<span>Cette page n'existe pas.</span></br>
 	<span>Vérifiez la syntaxe de l'URL, ou bien retournez vers une autre page.</span></br>
 </br>
-	<img src="../static/img/erreur.jpg" class="img-fluid" style="text-align: center">
+	<img  src="{{ url_for("static", filename="img/erreur.jpg") }}"  class="img-fluid" style="text-align: center">
 </div>
 </div>
 {%endblock%}
