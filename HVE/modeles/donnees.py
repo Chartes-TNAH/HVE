@@ -33,6 +33,7 @@ class Oeuvre(db.Model) :
     oeuvre_date = db.Column(db.Text)
     oeuvre_auteur_fk = db.Column(db.Integer)
 
+
 # Représentation de la table de relation entre les classes Auteur et Plante
 class Citation(db.Model) :
     citation_id = db.Column(db.Integer, unique=True, nullable=False, primary_key=True, autoincrement=True)

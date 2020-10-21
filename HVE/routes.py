@@ -65,7 +65,7 @@ def auteur(auteur_id):
     :rtype : page html
     """
     author_simple = Auteur.query.get_or_404(auteur_id)
-    oeuvres=Oeuvre.query.filter(Oeuvre.oeuvre_auteur_fk == Auteur.auteur_id)
+    oeuvres = Oeuvre.query.filter(Oeuvre.oeuvre_auteur_fk == Auteur.auteur_id)
     return render_template("pages/auteur.html", auteurs=author_simple, oeuvres=oeuvres)
 
 @app.route("/plantes/<int:plante_id>")
@@ -93,7 +93,7 @@ def resultat():
         resultats_auteurs = Auteur.query.filter(Auteur.auteur_nom.like("%{}%".format(motclef))).all()
         resultats_plantes = Plante.query.filter(Plante.plante_fran.like("%{}%".format(motclef))).all()
         titre = "Résultat pour la recherche '"+motclef+"'"
-        return render_template("pages/resultat.html", resultats_auteurs=resultats_auteurs, resultats_plantes=resultats_plantes, titre=titre)
+    return render_template("pages/resultat.html", resultats_auteurs=resultats_auteurs, resultats_plantes=resultats_plantes, titre=titre)
 
 @app.route("/texte/<int:numero>")
 def texte(numero):
@@ -167,7 +167,8 @@ def connexion():
         else:
             flash("Les identifiants n'ont pas été reconnus", "warning")
     return render_template("pages/connexion.html")
-    login.login_view = 'connexion'
+
+login.login_view = 'connexion'
 
 
 @app.route("/deconnexion", methods=["POST", "GET"])
